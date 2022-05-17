@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+h1{
+  color: azure;
+  background-color: black;
+  width: fit-content;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 5%;
+}
+input{
+  margin-top: 2%;
+  border: none;
+  padding-left: 1%;
+  margin-right: 2%;
+  border-bottom: 3px solid black;
+  height: 30px;
+  font-size: large;
+}
+input:focus{
+ outline: none;
+}
+button{
+  height: 40px;
+  width: 40px;
+  font-size: 35px;
+  font-weight: bolder;
+  color: aqua;
+  background-color: black;
+  border-radius: 20px;
+}
+button:hover{
+  border: none;
+  background-color: aqua;
+  color: black;
+}
+
+.todo>li{
+  margin: auto;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  list-style-type: none;
+  margin-left: 20px;
+}
+.todo{
+  margin-left: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#remove:hover{
+  background-color: red;
+}
